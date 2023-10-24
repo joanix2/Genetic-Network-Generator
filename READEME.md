@@ -1,3 +1,0 @@
-L'objectif de ce script est d'avoir une aproche connectioniste de la génération des réseaux de neurones. Plutot que d'instencier un model global à entrainer, nous voulons considerer chaque neurone comme une entité à part entier, avec un niveau de vie, qui pour survivre doit limiter sont taux d'erreur. L'algorithme utilise une déscente de gradiant classique pour minimiser sont cout. En revanche, à chaque fin d'époque les neurones ayant fais le plus d'erreur sont tuer et les meilleurs neurones se reproduisent.
-
-deffinissez les différents paramètres et appuiez sur "run network" pour executer le programme
